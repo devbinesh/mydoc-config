@@ -41,11 +41,3 @@ auth:
         # Token is valid 24 hours
     token-validity-in-seconds: 86400
     token-validity-in-seconds-for-remember-me: 2592000
-
-
-auth:    
-  token:
-    base64-secret: ODMwNTNiY2JhNDA4ODI5ZDljNDJkMThlZTE2ZDVjMDljNTAzZTBmN2U1MTk0ZDFjYzg5NWZkZjFjNzhhM2FkZGM4YzcxZDg1OGI1MDQyNjdkYjFiN2FhZDViNGY2M2ViMmUzM2YxYzI5MmIyZGNkY2Q5NDAwZTQ5NGQ2OTNiYjM=
-        # Token is valid 24 hours
-    token-validity-in-seconds: 86400
-    token-validity-in-seconds-for-remember-me: 2592000
