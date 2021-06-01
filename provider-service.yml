@@ -28,10 +28,26 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
      hostname: localhost           
-
-auth:    
-  token:
-    base64-secret: ODMwNTNiY2JhNDA4ODI5ZDljNDJkMThlZTE2ZDVjMDljNTAzZTBmN2U1MTk0ZDFjYzg5NWZkZjFjNzhhM2FkZGM4YzcxZDg1OGI1MDQyNjdkYjFiN2FhZDViNGY2M2ViMmUzM2YxYzI5MmIyZGNkY2Q5NDAwZTQ5NGQ2OTNiYjM=
+system: 
+  auth:    
+    token:
+        base64-secret: ODMwNTNiY2JhNDA4ODI5ZDljNDJkMThlZTE2ZDVjMDljNTAzZTBmN2U1MTk0ZDFjYzg5NWZkZjFjNzhhM2FkZGM4YzcxZDg1OGI1MDQyNjdkYjFiN2FhZDViNGY2M2ViMmUzM2YxYzI5MmIyZGNkY2Q5NDAwZTQ5NGQ2OTNiYjM=
         # Token is valid 24 hours
-    token-validity-in-seconds: 86400
-    token-validity-in-seconds-for-remember-me: 2592000
+        token-validity-in-seconds: 86400
+        token-validity-in-seconds-for-remember-me: 2592000
+  profile-image:
+      max-upload-size: 10MB
+      location: D:\\workingfolder\\upload_files\profile  
+      allowed-extentions: 
+            - jpg
+            - png
+      
+  documents:
+      max-upload-size: 10MB  
+      allowed-extentions: 
+            - pdf
+            - txt
+            - jpg
+            - png
+            
+      location:  D:\\workingfolder\\upload_files\docs 
